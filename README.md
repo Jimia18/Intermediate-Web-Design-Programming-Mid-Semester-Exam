@@ -13,11 +13,15 @@
 # Section B
 # 1. Difference between let, const, and var in JavaScript
  var is function-scoped, allows reassignment and redeclaration,  It should generally be avoided due to unpredictable behavior in block scopes.
-let is block-scoped, allows reassignment but not redeclaration . Use it when the variable's value will change.
-const is block-scoped, cannot be reassigned or redeclared Use it for constants or values that shouldn’t change
+let is block-scoped, allows reassignment but not redeclaration .It is used when the variable's value will change.
+const is block-scoped, cannot be reassigned or redeclared. It is used for constants or values that shouldn’t change
 
 # 2.What are JavaScript objects, and how are they different from arrays?
 A javascript  object is a collection of key-value pairs where each key is a string that maps to a value.
+- Objects are designed for storing key-value pairs, while Arrays are designed for storing collections of data.
+- Objects are unordered while arrays are ordered..
+
+
 
  # 3.Explain the difference between == and === in JavaScript.
 == is a loose equality which just checks if the values are equal and === is a strict equality which checks for equality and  the datatype.
