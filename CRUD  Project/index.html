@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucket-list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <h1 id="">Bucket-list</h1>
+        <table>
+            <tr>
+                <td>
+                    <!-- HTML form for CRUD operations -->
+                    <form id="employeeForm" autocomplete="off">
+                        <div>
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName">
+                        </div>
+                        <div>
+                            <label for="empCode">EMP Code</label>
+                            <input type="text" id="empCode" name="empCode">
+                        </div>
+                        <div>
+                            <label for="salary">Salary</label>
+                            <input type="text" id="salary" name="salary">
+                        </div>
+                        <div>
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city">
+                        </div>
+                        <div class="form-action-buttons">
+                            <input type="submit" value="Add">
+                        </div>
+                    </form>
+                </td>
+                <!-- Table to list all records -->
+                <td>
+                    <table class="list" id="employeeList">
+                        <thead>
+                            <tr>
+                                <th>Full Name</th>
+                                <th>EMP Code</th>
+                                <th>Salary</th>
+                                <th>City</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
+</body>
+</html>
